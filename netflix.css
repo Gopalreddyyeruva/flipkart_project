@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+
+}
+body {
+
+    background: #fc0303;
+    
+    }
+    
+    body::before {
+        content:""; 
+        position: absolute; opacity: 0.5; 
+    left: 0; 
+    top: 0;
+    
+   
+    
+    width: 100%;
+    
+    height: 100%;
+    
+    background: url("tinyurl.com/netflixbgimage");
+    
+    background-position: center;
+    }
+    
+    nav {
+    
+    position: fixed;
+    
+    padding: 25px 60px; z-index: 1;
+    z-index: 1;
+    }
+    nav a img { 
+        width: 167px;
+    }
+
+        -form-wrapper { 
+            position: absolute;
+        
+        border-radius: 4px;
+        
+        Left: 50%; 
+        top: 50%; 
+        padding: 70px; 
+        width: 450px;
+         transform: translate(-50%, -50%); 
+         background: rgba(0, 0, 0, 0.75); }
+
+        
+        .form-wrapper h2 {
+             color: #fff;
+        
+        font-size: 2rem;
+        }
+        
+        .form-wrapper form {
+         margin: 25px 0 65px;
+        }  
+        .from-control input {
+            height: 100%;
+            width: 100%;
+            background-color: #333;
+            border: none;
+            outline: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 1rem;
+            padding: 0 20px;
+
+
+        }
+        .from-control input:is(:focus,:valid) {
+            background-color: #444;
+            padding: 16px 20px 0;
+        }
+        .from-control label{
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1rem;
+            pointer-events: none;
+            color: #8c8c8c;
+            transition: all 0.is ease;
+                }
+
+        
+
+
